@@ -58,4 +58,4 @@ def add_mult(num1, num2, num3):
 def add_cubes(num1, num2):
     """Cubes both numbers and sums them"""
 
-    return cube(num1) + cube(num2)
+    return add(cube(num1), cube(num2))
